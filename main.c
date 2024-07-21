@@ -10,6 +10,9 @@
    of the list always.
     2. We use the assert to check if the head is not NULL.
     3. We use the malloc to allocate memory for the new node.
+    4. We use `**` double pointer technique on the methods that affects the
+   linkedlist because we want to modify the address that the actual node is
+   pointing to instead of modying the actual underyling value
 */
 
 typedef struct Node {
